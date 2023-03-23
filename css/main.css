@@ -139,6 +139,7 @@ body{
 .work_block{
 	width: 85%;
 	margin-left: 9vw;
+	font-family: var(--text);
 }
 .atlant_company img{
 	position: relative;
