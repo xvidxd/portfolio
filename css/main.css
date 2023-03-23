@@ -1,0 +1,339 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--sizeindex: calc(1vw+1vh);
+	--text: dited_m;
+}
+@font-face {
+	font-family: dited_m;
+	src: url(../fonts/Dited.otf);
+	font-weight: 300;
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: black;
+	font-family: var(--text);
+	max-width: 1920px;
+	margin: 0px auto;
+}
+.header{
+	width: 100%;
+	height: 12vh;
+}
+.main{
+	max-width: 1920px;
+	margin: 0px auto;
+}
+.logo{
+	width: calc(var(--sizeindex) * 7);
+	height: calc(var(--sizeindex) * 5.5);
+	position: absolute;
+	top: 0.5vh;
+	left: 4vw;
+}
+.button_block a{
+	font-family: var(--text);
+	font-size: calc(var(--sizeindex) * 1.7);
+	background-color: rgba(28,28,28,0);
+	color: white;
+	text-transform: uppercase;
+	margin-left: 20%;
+ 	flex: 0 1 auto;
+	width: 5vw;
+	height: 5vh;
+	border: none; 
+	outline: none;
+	text-decoration: none;
+}
+.button_block{
+	position: absolute;
+	left: 75vw;
+	top: 3.9vh;
+	display: flex;
+	z-index: 3;
+}
+.button_block a:hover{
+	background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.welcome{
+	width: 100%;
+}
+.welcome img{
+	margin-top: -22vh;
+	width: 100%;
+}
+.wrapper_text {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.text{
+  width: 19ch;
+  color: white;
+  white-space: nowrap; 
+  overflow: hidden;
+  border-right: 3px solid white; 
+  animation: cursor 0.75s step-end infinite, printed_text 2s steps(20);
+	font-family: var(--text);
+	font-size: calc(var(--sizeindex) * 6);
+	position: relative;
+	top: calc(var(--sizeindex) * 20);
+	z-index: 2;
+	background-color: white;
+  background-image: linear-gradient(89.89deg, #C66FCD 9.16%, rgba(255, 255, 255, 0.533333) 49.98%, #C354CD 96.64%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+@keyframes cursor {
+  0% {
+    border-color: white;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: white;
+  }
+}
+@keyframes printed_text {
+  from {
+    width: 0;
+  }
+}
+.work__wrapper{
+	position: relative;
+
+}
+.caption{
+	color: white;
+	font-family: var(--text);
+	font-size: calc(var(--sizeindex) * 6);
+	position: absolute;
+	left: 6vw;
+}
+.selected{
+	color: rgba(227, 228, 230, 0.55);
+}
+.text__caption_1{
+	color: rgba(227, 228, 230, 0.55);
+	font-family: var(--text);
+	font-size: calc(var(--sizeindex) * 1.7);
+	position: relative;
+	left: 40vw;
+	top: 11vh;
+	max-width: 250px;
+}
+.text__info_1{
+	color: white;
+	font-family: var(--text);
+	font-size: calc(var(--sizeindex) * 2.5);
+	position: relative;
+	left: 40vw;
+	top: 13vh;
+	width: 45vw;
+}
+.atlant_company{
+	position: relative;
+	top: 30vh;
+	height: 75vh;
+}
+.work_block{
+	width: 85%;
+	margin-left: 9vw;
+	font-family: var(--text);
+}
+.atlant_company img{
+	position: relative;
+	top: -35vh;
+	width: calc(var(--sizeindex) * 37);
+}
+.description_1{
+	color: rgba(227, 228, 230, 0.55);
+	font-family: var(--text);
+	position: relative;
+	left: 40vw;
+	top: 15vh;
+	font-size: calc(var(--sizeindex) * 1.7);
+	max-width: 200px;
+}
+.view__work{
+	color: rgba(227, 228, 230, 0.55);
+	font-family: var(--text);
+	font-size: calc(var(--sizeindex) * 1.5);
+	position: absolute;
+	left: 40vw;
+	top: 59vh;
+	background-color: rgba(28,28,28,0);
+	text-transform: uppercase;
+	border: 1px solid white;
+	height: calc(var(--sizeindex) * 3);
+	width: calc(var(--sizeindex) * 10);
+	border-radius: 100px;
+	transition: all 0.2s ease-in 0s;
+}
+.view__work img{
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 0.5vh;
+}
+.second_1{
+	display: none;
+}
+.view__work:hover{
+	height: calc(var(--sizeindex) * 3);
+	width: calc(var(--sizeindex) * 12);
+	font-size: calc(var(--sizeindex) * 2);
+}
+.view__work:hover .second_1{
+	display: inline;
+	width: 28px;
+	height: 28px;
+}
+.view__work:hover .first_1{
+	display: none;
+}
+.parallax_mountains{
+	position: relative;
+	top: 25vh;
+	height: 75vh;
+}
+.card2{
+	position: relative;
+	left: 47.1vw;
+	top: -35vh;
+	width: calc(var(--sizeindex) * 37);
+}
+.parallax_mountains .text__caption_1{
+	left: 0;
+}
+.parallax_mountains .text__info_1{
+	left: 0;
+}
+.parallax_mountains .description_1{
+	left: 0;
+}
+.parallax_mountains .view__work{
+	left: 0;
+}
+.parallax_gallery{
+	position: relative;
+	top: 20vh;
+	height: 75vh;
+}
+.card3{
+	position: relative;
+	top: -35vh;
+	width: calc(var(--sizeindex) * 37);
+}
+.about_me{
+	width: 100%;
+	height: 50vh;
+	position: relative;
+	top: 40vh;
+	font-family: var(--text);
+	color: white;
+	margin: 0 auto;
+}
+.caption_about{
+	font-size: calc(var(--sizeindex) * 2.5);
+	position: relative;
+	left: 11vw;
+	top: 10vh;
+	color: rgba(227, 228, 230, 0.55);
+	max-width: 250px;
+}
+.description_about{
+	font-size: calc(var(--sizeindex) * 3);
+	width: calc(var(--sizeindex) * 40);
+	position: relative;
+	top: 12vh;
+	left: 9vw;
+}
+.description_about span{
+	color: rgba(227, 228, 230, 0.55);
+}
+.image_block{
+	position: relative;
+	left: 55vw;
+	height: calc(var(--sizeindex) * 15);
+	max-width: 300px;
+}
+.image_block img{
+	width: calc(var(--sizeindex) * 15);
+}
+.vertical_block{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: -95vh;
+	left: 18vw;
+	width: calc(var(--sizeindex) * 15);
+}
+.games{
+	margin-bottom: 5vh;
+}
+.music{
+	position: relative;
+	top: -25vh;
+	width: calc(var(--sizeindex) * 15);
+}
+.footer_get{
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	top: 80vh;
+	color: white;
+	font-family: var(--text);
+	margin-left: 25vw;
+}
+.footer_caption{
+	width: 300px;
+	top: 10vh;
+	font-size: calc(var(--sizeindex) * 6);
+	margin-left: 15vw;
+}
+.footer_caption span{
+	color: rgba(227, 228, 230, 0.55);
+}
+.footer_description{
+	color: rgba(227, 228, 230, 0.55);
+	font-size: calc(var(--sizeindex) * 3);
+	max-width: 700px;
+	margin-top: 5vh;
+	margin-left: 3vw;
+}
+.contact_links{
+	max-width: 300px;
+	display: flex;
+	margin-left: 13vw;
+}
+.contact_links a{
+	width: 30px;
+	height: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 35px;
+ 	padding: 5px;
+ 	flex: 0 1 auto;
+}
+.upwork{
+	background-image: url('../img/upwork.svg');
+}
+.mail{
+	background-image: url('../img/gmail.svg');
+}
+.telegram{
+	background-image: url('../img/telegram.svg');
+}
