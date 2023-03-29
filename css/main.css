@@ -350,6 +350,8 @@ body{
 		position: relative;
 		left: 10vw;
 		top: 5vh;
+		width: calc(var(--sizeindex) * 2);
+		height: calc(var(--sizeindex) * 1);
 }
 .button_block{
 	scale: 2;
