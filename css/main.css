@@ -335,7 +335,10 @@ body{
 .telegram{
 	background-image: url('../img/telegram.svg');
 }
-@media (max-width:800px){
+@media (max-width:767.5px){
+	.main{
+		max-width: 750px;
+	}
 	.welcome img{
 		position: relative;
 		top: 15vh;
