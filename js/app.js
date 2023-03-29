@@ -12,10 +12,12 @@ window.addEventListener('scroll', createPosition)
 		const phenollAnim = {
 			translate: 50 / 100 * finalPos,
 			scale: 1 + 0.5 / 100 * finalPos,
+			opacity: 1 - finalPos / 100,
 		}
 		phenoll.style.cssText = `
 		transform:
 			translate(0, ${phenollAnim.translate}%)
 			scale(${phenollAnim.scale});
+			opacity: ${phenollAnim.opacity};
 		`;
 	}
