@@ -1,0 +1,588 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Manrope";
+	src: url(../fonts/Manrope-Regular.ttf);
+}
+header{
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height: 72px;
+	background-color: white;
+}
+.logo{
+	position: absolute;
+	left: 109px;
+	top: 11px;
+}
+.links{
+	position: absolute;
+	left: 529px;
+	top: 26px;
+}
+.links a{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 32px;
+	text-decoration: none;
+	color: black;
+}
+.contact{
+	position: absolute;
+	top: 16px;
+	left: 1250px;
+	border: 1px solid #183181;
+	width: 100px;
+	height: 40px;
+	background: #183181;
+	border-radius: 8px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	border: 1px solid #000000;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.wrapper{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 860px;
+	background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+}
+.construct{
+	position: absolute;
+	width: 540px;
+	height: 196px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 98px;
+	top: 291px;
+	left: 165px;
+}
+.building{
+	float: right;
+}
+.block_text{
+	position: absolute;
+	width: 540px;
+	height: 64px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	top: 503px;
+	left: 165px;
+}
+.play_button{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	border: 2px solid #18191F;
+	border-radius: 50%;
+	text-align: center;
+	top: 599px;
+	left: 165px;
+}
+.play_button img{
+	margin-top: 30%;
+	margin-left: 5%;
+}
+.line{
+	position: absolute;
+	top: 623px;
+	left: 223px;
+}
+.projects{
+	position: absolute;
+	width: 81px;
+	height: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 18px;
+	top: 614px;
+	left: 309px;
+}
+.block__info{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 64px 165px;
+	gap: 30px;
+	position: absolute;
+	width: 100%;
+	height: 236px;
+	top: 962px;
+}
+.numbers{
+	width: 255px;
+	height: 64px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	margin-left: 30px;
+}
+.block__info span{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	margin-left: 30px;
+}
+.we_build{
+	position: absolute;
+	width: 100%;
+	height: 752px;
+	top: 1200px;
+}
+.we_build span{
+	position: relative;
+	width: 730px;
+	height: 64px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	top: 80px;
+	left: 165px;
+}
+.flex_block__1{
+	position: absolute;
+	width: 1110px;
+	height: 200px;
+	display: flex;
+	margin-left: 30px;
+	justify-content: space-between;
+	top: 192px;
+	left: 250px;
+}
+.flex_block__1 div{
+	width: 255px;
+	height: 200px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+	background: #FFFFFF;
+}
+.flex_block__1 span{
+	position: relative;
+	width: 207px;
+	height: 64px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 32px;
+	top: 24px;
+	left: 24px;
+}
+.storage_img{
+	position: relative;
+	top: 82px;
+	left: 19px;
+}
+.freeze_img{
+	position: relative;
+	top: 56px;
+	left: 63px;
+}
+.logistic_img{
+	position: relative;
+	top: 48px;
+	left: 101px;
+}
+.buildings_img{
+	position: relative;
+	top: 93px;
+	left: 81px;
+}
+.flex_block__2{
+	position: absolute;
+	width: 1110px;
+	height: 200px;
+	display: flex;
+	margin-left: 30px;
+	justify-content: space-between;
+	top: 456px;
+	left: 250px;
+}
+.flex_block__2 span{
+	position: relative;
+	width: 207px;
+	height: 64px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 32px;
+	top: 24px;
+	left: 24px;
+	border-radius: 8px;
+	background: #FFFFFF;
+}
+.flex_block__2 div{
+	width: 255px;
+	height: 200px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+	background: #FFFFFF;
+}
+.objects_img{
+	position: relative;
+	top: 83px;
+	left: 56px;
+}
+.metal_img{
+	position: relative;
+	top: 75px;
+	left: 91px;
+}
+.panels_img{
+	position: relative;
+	top: 109px;
+	left: 54px;
+}
+.restavration_img{
+	position: relative;
+	top: 101px;
+	left: 98px;
+}
+.circle{
+	width: 540px;
+	height: 540px;
+	position: absolute;
+	left: 950px;
+	background-color: #CDCDCD;
+	border-radius: 50%;
+	z-index: -1;
+}
+.block__img{
+	position: absolute;
+	top: 1950px;
+	left: 120px;
+}
+.our_projects{
+	position: absolute;
+	width: 100%;
+	height: 1406px;
+	top: 2600px;
+}
+.flex_block_3{
+		display: flex;
+		flex-flow: row wrap;
+		width: 1110px;
+		height: 1110px;
+		position: relative;
+		top: 192px;
+		left: 270px;
+}
+.flex_block_3 div{
+	margin: 5px;
+ 	padding: 5px;
+ 	flex: 0 1 500px;
+ 	align-self: stretch;
+ 	order: 10;
+}
+.our_projects span{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	position: relative;
+	top: 86px;
+	left: 165px;
+}
+.flex_block_3 span{
+	position: relative;
+	top: 0;
+	left: 0;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 40px;
+}
+.term{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 18px;
+}
+.btn{
+	position: relative;
+	top: -35px;
+	left: 380px;
+	background: #183181;
+	border-radius: 100px;
+	width: 112px;
+	height: 40px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	border: 1px solid #183181;
+}
+.btn_about{
+	position: relative;
+	top: 200px;
+	left: 46%;
+	background: #183181;
+	border-radius: 100px;
+	width: 112px;
+	height: 40px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	border: 1px solid #183181;
+}
+.about_us__wrapper{
+	width: 100%;
+	height: 668px;
+	position: absolute;
+	top: 4025px;
+}
+.circle_logo{
+	width: 540px;
+	height: 540px;
+	border-radius: 50%;
+	background: #EAECF7;
+	position: absolute;
+	top: 64px;
+	left: 165px;
+	z-index: -1;
+}
+.big_logo{
+	position: relative;
+	top: 9px;
+	left: 200px;
+}
+.window{
+	position: absolute;
+	width: 234px;
+	height: 241px;
+	border-radius: 8px 8px 8px 8px;
+	top: 393px;
+	left: 150px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+.company_name{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-feature-settings: 'liga' off;
+	color: #183181;
+	position: absolute;
+	top: 167px;
+	left: 783px;
+}
+.about_company{
+	width: 444px;
+	height: 54px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 54px;
+	position: absolute;
+	top: 193px;
+	left: 780px;
+}
+.about__info{
+	position: absolute;
+	width: 444px;
+	height: 160px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	top: 279px;
+	left: 783px;
+}
+.gallery{
+	position: absolute;
+	width: 100%;
+	height: 992px;
+	top: 4700px;
+}
+.gallery span{
+	position: relative;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 54px;
+	top: 80px;
+	left: 165px;
+}
+.gallery_flex{
+	position: relative;
+	top: 182px;
+	left: 280px;
+	width: 1110px;
+	height: 730px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.gallery__img{
+	position: relative;
+	width: 350px;
+	height: 350px;
+	flex: 1 1 350px;
+	margin: 5px;
+}
+.trust{
+	position: absolute;
+	top: 5700px;
+	width: 100%;
+	height: 606px;
+}
+.trust h2{
+	position: absolute;
+	width: 1110px;
+	height: 64px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	top: 59px;
+	left: 280px;
+}
+.trust span{
+	position: relative;
+	height: 32px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	text-align: center;
+	top: 131px;
+	left: 620px;
+}
+.companies div{
+	width: 170px;
+	height: 96px;
+	box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+	border-radius: 16px;
+}
+.companies img{
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+.airbnb_block{
+	position: absolute;
+	top: 331px;
+	left: 247px;
+}
+.google_block{
+	position: absolute;
+	top: 271px;
+	left: 441px;
+}
+.book_block{
+	position: absolute;
+	top: 391px;
+	left: 441px;
+}
+.microsoft_block{
+	position: absolute;
+	top: 211px;
+	left: 635px;
+}
+.fedex_block{
+	position: absolute;
+	top: 331px;
+	left: 635px;
+}
+.walmart_block{
+	position: absolute;
+	top: 451px;
+	left: 635px;
+}
+.oyo_block{
+	position: absolute;
+	top: 271px;
+	left: 829px;
+}
+.ola_block{
+	position: absolute;
+	top: 391px;
+	left: 829px;
+}
+.amazon_block{
+	position: absolute;
+	top: 331px;
+	left: 1023px;
+}
+.companies{
+	position: relative;
+	left: 130px;
+}
+.footer{
+	position: absolute;
+	width: 100%;
+	height: 360px;
+	background: #0B0D17;
+	top: 6300px;
+}
+.name__company{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #D9DBE1;
+	position: absolute;
+	top: 64px;
+	left: 720px;
+}
+.reservet{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #D9DBE1;
+	position: absolute;
+	top: 80px;
+	left: 720px;
+}
+.social{
+	position: absolute;
+	top: 192px;
+	left: 770px;
+}
